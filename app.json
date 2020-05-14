@@ -43,13 +43,23 @@
         "small": "drivers/lightify_plug/assets/images/small.png"
       },
       "zigbee": {
-        "manufacturerName": "OSRAM",
+        "manufacturerName": [
+          "OSRAM",
+          "LEDVANCE"
+        ],
         "productId": [
           "Plug 01",
-          "Plug - LIGHTIFY"
+          "Plug - LIGHTIFY",
+          "Plug Z3"
         ],
-        "deviceId": 16,
-        "profileId": 49246,
+        "deviceId": [
+          16,
+          266
+        ],
+        "profileId": [
+          49246,
+          260
+        ],
         "learnmode": {
           "instruction": {
             "en": "Plug in the Plug, or toggle the Plug to start pairing.\n\nIf pairing does not automatically start, try turning the Plug on and off 6 times.",
