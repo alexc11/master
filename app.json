@@ -6,11 +6,13 @@
   "category": "lights",
   "name": {
     "en": "Osram Lightify (ZigBee)",
-    "nl": "Osram Lightify (ZigBee)"
+    "nl": "Osram Lightify (ZigBee)",
+    "de": "Osram Lightify (ZigBee"
   },
   "description": {
     "en": "Control your Osram Lightify bulbs (ZigBee) with Homey!",
-    "nl": "Gebruik je Osram Lightify lampen (ZigBee) met Homey!"
+    "nl": "Gebruik je Osram Lightify lampen (ZigBee) met Homey!",
+    "de": "Steuern Sie Ihre Osram Lightify-Birnen (ZigBee) mit Homey!"
   },
   "author": {
     "name": "Athom B.V."
@@ -32,7 +34,8 @@
       "id": "lightify_plug",
       "name": {
         "en": "Plug (ZigBee)",
-        "nl": "Plug (ZigBee)"
+        "nl": "Plug (ZigBee)",
+        "de": "Stecker (ZigBee"
       },
       "class": "socket",
       "capabilities": [
@@ -63,7 +66,8 @@
         "learnmode": {
           "instruction": {
             "en": "Plug in the Plug, or toggle the Plug to start pairing.\n\nIf pairing does not automatically start, try turning the Plug on and off 6 times.",
-            "nl": "Stop de Plug in het stopcontact of zet de Plug uit en weer aan om hem toe te voegen.\n\nWordt de Plug niet automatisch toegevoegd, probeer hem dan 6 keer aan en uit te zetten."
+            "nl": "Stop de Plug in het stopcontact of zet de Plug uit en weer aan om hem toe te voegen.\n\nWordt de Plug niet automatisch toegevoegd, probeer hem dan 6 keer aan en uit te zetten.",
+            "de": "Stecken Sie den Stecker ein oder schalten Sie den Stecker um, um die Kopplung zu starten. Wenn die Kopplung nicht automatisch startet, versuchen Sie 6 Mal, den Stecker ein- und auszuschalten."
           }
         }
       }
@@ -72,7 +76,8 @@
       "id": "lightify_rgbw",
       "name": {
         "en": "RGBW Bulb E27 (ZigBee)",
-        "nl": "RGBW Lamp E27 (ZigBee)"
+        "nl": "RGBW Lamp E27 (ZigBee)",
+        "de": "RGBW Lampe E27 (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -108,7 +113,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Lampe ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -118,11 +124,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -136,7 +144,8 @@
       "id": "lightify_rgbw_gu10",
       "name": {
         "en": "RGBW Spot GU10 (ZigBee)",
-        "nl": "RGBW Spot GU10 (ZigBee)"
+        "nl": "RGBW Spot GU10 (ZigBee)",
+        "de": "RGBW Spot GU10 (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -171,7 +180,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the spot to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de spot uit en weer aan.\n\nWordt de spot niet automatisch toegevoegd binnen 20 seconden, probeer dan de spot te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De spot zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de spot uit en weer aan.\n\nWordt de spot niet automatisch toegevoegd binnen 20 seconden, probeer dan de spot te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De spot zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie den Spot ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Es blinkt, um anzuzeigen, dass es zurückgesetzt wurde."
           }
         }
       },
@@ -181,11 +191,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -199,7 +211,8 @@
       "id": "lightify_gardenpole_rgbw",
       "name": {
         "en": "Gardenpole RGBW (ZigBee)",
-        "nl": "Gardenpole RGBW (ZigBee)"
+        "nl": "Gardenpole RGBW (ZigBee)",
+        "de": "Gardenpole RGBW (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -225,7 +238,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the Gardenpole RGBW to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de Gardenpole RGBW uit en weer aan.\n\nWordt het apparaat niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Gardenpole RGBW zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de Gardenpole RGBW uit en weer aan.\n\nWordt het apparaat niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Gardenpole RGBW zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Gartenpole RGBW ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht automatisch innerhalb von 20 Sekunden beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Es blinkt, um anzuzeigen, dass es zurückgesetzt wurde."
           }
         }
       },
@@ -235,11 +249,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -253,7 +269,8 @@
       "id": "lightify_gardenpole_mini_rgbw",
       "name": {
         "en": "Gardenpole Mini RGBW (ZigBee)",
-        "nl": "Gardenpole Mini RGBW (ZigBee)"
+        "nl": "Gardenpole Mini RGBW (ZigBee)",
+        "de": "Gardenpole Mini RGBW (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -278,7 +295,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the Gardenpole Mini RGBW to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de Gardenpole Mini RGBW uit en weer aan.\n\nWordt het apparaat niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Gardenpole Mini RGBW zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de Gardenpole Mini RGBW uit en weer aan.\n\nWordt het apparaat niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Gardenpole Mini RGBW zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Gartenpole Mini RGBW ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -288,11 +306,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -306,7 +326,8 @@
       "id": "lightify_gardenspot_mini_rgb",
       "name": {
         "en": "Gardenspot Mini RGB (ZigBee)",
-        "nl": "Gardenspot Mini RGB (ZigBee)"
+        "nl": "Gardenspot Mini RGB (ZigBee)",
+        "de": "Gartenspot Mini RGB (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -331,7 +352,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the gardenspots to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de Gardenspot Mini RGB uit en weer aan.\n\nWordt het apparaat niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Gardenspot Mini RGB zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de Gardenspot Mini RGB uit en weer aan.\n\nWordt het apparaat niet automatisch toegevoegd binnen 20 seconden, probeer het dan te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Gardenspot Mini RGB zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Gartenspot Mini RGB ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -341,11 +363,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -359,7 +383,8 @@
       "id": "lightify_flex_rgbw",
       "name": {
         "en": "Flex RGBW (ZigBee)",
-        "nl": "Flex RGBW (ZigBee)"
+        "nl": "Flex RGBW (ZigBee)",
+        "de": "Flex RGBW (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -386,7 +411,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the Flex RGBW to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de Flex RGBW uit en weer aan.\n\nWordt de Flex RGBW niet automatisch toegevoegd binnen 20 seconden, probeer dan de Flex RGBW te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Flex RGBW zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de Flex RGBW uit en weer aan.\n\nWordt de Flex RGBW niet automatisch toegevoegd binnen 20 seconden, probeer dan de Flex RGBW te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De Flex RGBW zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie den Flex RGBW ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -396,11 +422,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -414,7 +442,8 @@
       "id": "lightify_white",
       "name": {
         "en": "Tunable White Bulb E27 (ZigBee)",
-        "nl": "Tunable White Lamp E27 (ZigBee)"
+        "nl": "Tunable White Lamp E27 (ZigBee)",
+        "de": "Tunable White Lampe E27 (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -440,7 +469,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Glühbirne ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -450,11 +480,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -488,7 +520,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Glühbirne ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -498,11 +531,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -516,7 +551,8 @@
       "id": "lightify_white_gu10",
       "name": {
         "en": "Tunable White Spot GU10 (ZigBee)",
-        "nl": "Tunable White Spot GU10 (ZigBee)"
+        "nl": "Tunable White Spot GU10 (ZigBee)",
+        "de": "Tunable White Spot GU10 (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -536,7 +572,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the spot to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de spot uit en weer aan.\n\nWordt de spot niet automatisch toegevoegd binnen 20 seconden, probeer dan de spot te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De spot zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de spot uit en weer aan.\n\nWordt de spot niet automatisch toegevoegd binnen 20 seconden, probeer dan de spot te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De spot zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Glühbirne ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -546,11 +583,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
@@ -564,7 +603,8 @@
       "id": "lightify_dimmable_white",
       "name": {
         "en": "Dimmable White Bulb E27 (ZigBee)",
-        "nl": "Dimmable White Lamp E27 (ZigBee)"
+        "nl": "Dimmable White Lamp E27 (ZigBee)",
+        "de": "Dimmbare Weiße Lampe E27 (ZigBee)"
       },
       "class": "light",
       "capabilities": [
@@ -596,7 +636,8 @@
         "learnmode": {
           "instruction": {
             "en": "Toggle the bulb to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the device by toggling it 6 times (one toggle: 5 seconds off, 5 seconds on). It will flash to indicate it has been reset.",
-            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset."
+            "nl": "Zet de lamp uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan de lamp te resetten door het 6 keer te schakelen (één keer schakelen: 5 seconden uit, 5 seconden aan). De lamp zal knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalten Sie die Glühbirne ein, um mit dem Koppeln zu beginnen.\n\nWenn die Kopplung nicht innerhalb von 20 Sekunden automatisch beginnt, versuchen Sie, das Gerät durch sechsmaliges Umschalten zurückzusetzen (ein Umschalten: 5 Sekunden aus, 5 Sekunden an). Sie blinkt dann, um anzuzeigen, dass sie zurückgesetzt wurde."
           }
         }
       },
@@ -606,11 +647,13 @@
           "type": "number",
           "label": {
             "en": "Transition Time",
-            "nl": "Overgangstijd"
+            "nl": "Overgangstijd",
+            "de": "Übergangszeit"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
-            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die benötigt wird, um von einer Stufe zur anderen zu dimmen."
           },
           "value": 1,
           "attr": {
